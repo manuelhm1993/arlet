@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" role="img" aria-label="Caricatura de Arlet como princesa">
+  <defs>
+    <radialGradient id="piel" cx=".45" cy=".4" r=".7">
+      <stop offset="0" stop-color="#f3caa4"/><stop offset=".7" stop-color="#dfa47c"/><stop offset="1" stop-color="#c98a62"/>
+    </radialGradient>
+    <linearGradient id="falda" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7a2f0"/><stop offset=".6" stop-color="#9f6fdb"/><stop offset="1" stop-color="#7a4cbc"/>
+    </linearGradient>
+    <linearGradient id="tul" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3e8ff" stop-opacity=".95"/><stop offset="1" stop-color="#dcc4fa" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="oro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2bf"/><stop offset=".45" stop-color="#e2bf62"/><stop offset="1" stop-color="#9a7426"/>
+    </linearGradient>
+    <radialGradient id="ojo" cx=".5" cy=".55" r=".55">
+      <stop offset="0" stop-color="#5a3420"/><stop offset=".55" stop-color="#2a170d"/><stop offset="1" stop-color="#140a05"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sombra -->
+  <ellipse cx="200" cy="520" rx="150" ry="12" fill="#6b3fa8" opacity=".18"/>
+
+  <!-- FALDA (vestido original: lila con tul y ribete dorado) -->
+  <path d="M150 335 C 120 400, 70 450, 52 505 Q 200 535 348 505 C 330 450, 280 400, 250 335 Z" fill="url(#falda)"/>
+  <path d="M52 505 q 18 14 37 0 q 18 14 37 0 q 18 14 37 0 q 18 14 37 0 q 18 14 37 0 q 18 14 37 0 q 18 14 37 0 q 18 14 37 0" fill="none" stroke="url(#oro)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M162 338 C 140 395, 112 440, 104 492 Q 200 510 296 492 C 288 440, 260 395, 238 338 Z" fill="url(#tul)"/>
+  <g fill="#fff" opacity=".9">
+    <circle cx="140" cy="460" r="2.5"/><circle cx="175" cy="430" r="2"/><circle cx="230" cy="452" r="2.5"/><circle cx="262" cy="474" r="2"/><circle cx="200" cy="480" r="2"/><circle cx="120" cy="488" r="1.8"/><circle cx="280" cy="420" r="1.8"/>
+  </g>
+  <path d="M172 360 Q 200 372 228 360" fill="none" stroke="#e889c4" stroke-width="3" opacity=".7"/>
+
+  <!-- CORPIÑO -->
+  <path d="M160 290 Q 200 278 240 290 L 246 340 Q 200 350 154 340 Z" fill="#9f6fdb"/>
+  <path d="M160 292 Q 180 306 200 296 Q 220 306 240 292" fill="none" stroke="url(#oro)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M154 338 Q 200 350 246 338" fill="none" stroke="url(#oro)" stroke-width="5" stroke-linecap="round"/>
+  <!-- mangas abullonadas -->
+  <ellipse cx="150" cy="298" rx="26" ry="20" fill="#d7bdf6"/>
+  <ellipse cx="250" cy="298" rx="26" ry="20" fill="#d7bdf6"/>
+  <path d="M128 308 Q 150 318 172 308 M228 308 Q 250 318 272 308" fill="none" stroke="#fff" stroke-width="2.5" opacity=".8"/>
+
+  <!-- BRAZOS + manos juntas (como en la foto del jardín) -->
+  <path d="M138 312 C 140 340, 168 342, 188 324" fill="none" stroke="url(#piel)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M262 312 C 260 340, 232 342, 212 324" fill="none" stroke="url(#piel)" stroke-width="20" stroke-linecap="round"/>
+  <ellipse cx="193" cy="318" rx="13" ry="16" fill="#e7af87" transform="rotate(-12 193 318)"/>
+  <ellipse cx="207" cy="318" rx="13" ry="16" fill="#efbb94" transform="rotate(12 207 318)"/>
+  <path d="M200 305 L 200 330" stroke="#c98a62" stroke-width="1.5" opacity=".6"/>
+
+  <!-- CUELLO -->
+  <rect x="186" y="270" width="28" height="22" rx="10" fill="#d99b74"/>
+
+  <!-- OREJAS con zarcillos -->
+  <ellipse cx="96" cy="196" rx="15" ry="20" fill="#dca07a"/>
+  <ellipse cx="304" cy="196" rx="15" ry="20" fill="#dca07a"/>
+  <circle cx="97" cy="212" r="4.5" fill="url(#oro)" stroke="#9a7426" stroke-width="1"/>
+  <circle cx="303" cy="212" r="4.5" fill="url(#oro)" stroke="#9a7426" stroke-width="1"/>
+
+  <!-- CABEZA -->
+  <circle cx="200" cy="180" r="104" fill="url(#piel)"/>
+  <!-- cabello fino -->
+  <path d="M112 132 Q 150 88 200 84 Q 252 86 290 132 Q 250 108 200 106 Q 150 108 112 132 Z" fill="#6b4630" opacity=".55"/>
+  <path d="M196 86 q -16 -22 6 -30 q 18 -4 14 12" fill="none" stroke="#5b3a26" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- diadema lila + corona -->
+  <path d="M104 150 Q 200 92 296 150" fill="none" stroke="#b78ae6" stroke-width="9" stroke-linecap="round"/>
+  <g transform="translate(150 50)">
+    <path d="M8 52 L4 18 L26 36 L38 6 L50 28 L62 6 L74 36 L96 18 L92 52 Z" fill="url(#oro)" stroke="#8a6620" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="7" y="48" width="86" height="11" rx="4" fill="url(#oro)" stroke="#8a6620" stroke-width="2"/>
+    <circle cx="4" cy="17" r="4.5" fill="#fff" stroke="#8a6620"/><circle cx="96" cy="17" r="4.5" fill="#fff" stroke="#8a6620"/>
+    <circle cx="38" cy="5" r="4.5" fill="#fff" stroke="#8a6620"/><circle cx="62" cy="5" r="4.5" fill="#fff" stroke="#8a6620"/>
+    <ellipse cx="50" cy="39" rx="7" ry="8" fill="#b06ad8" stroke="#8a6620"/>
+    <circle cx="27" cy="44" r="4" fill="#e889c4"/><circle cx="73" cy="44" r="4" fill="#e889c4"/>
+  </g>
+
+  <!-- cejas finas -->
+  <path d="M136 160 Q 156 150 176 158" fill="none" stroke="#7a5038" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <path d="M224 158 Q 244 150 264 160" fill="none" stroke="#7a5038" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+
+  <!-- OJOS grandes y oscuros -->
+  <g>
+    <ellipse cx="158" cy="196" rx="22" ry="26" fill="url(#ojo)"/>
+    <ellipse cx="242" cy="196" rx="22" ry="26" fill="url(#ojo)"/>
+    <circle cx="166" cy="185" r="8" fill="#fff"/><circle cx="250" cy="185" r="8" fill="#fff"/>
+    <circle cx="151" cy="206" r="3.5" fill="#fff" opacity=".85"/><circle cx="235" cy="206" r="3.5" fill="#fff" opacity=".85"/>
+    <path d="M137 186 Q 141 172 152 168 M263 186 Q 259 172 248 168" fill="none" stroke="#1a0d06" stroke-width="3" stroke-linecap="round"/>
+    <path d="M138 182 l -9 -3 M142 175 l -7 -7 M262 182 l 9 -3 M258 175 l 7 -7" stroke="#1a0d06" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- mejillas -->
+  <ellipse cx="128" cy="232" rx="20" ry="12" fill="#f08aa0" opacity=".4"/>
+  <ellipse cx="272" cy="232" rx="20" ry="12" fill="#f08aa0" opacity=".4"/>
+
+  <!-- nariz -->
+  <path d="M193 226 Q 200 233 207 226" fill="none" stroke="#b9764f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- boca sonriente abierta -->
+  <path d="M184 247 Q 200 251 216 247 Q 213 268 200 269 Q 187 268 184 247 Z" fill="#8a2d3b"/>
+  <path d="M190 261 Q 200 255 210 261 Q 207 268 200 268.5 Q 193 268 190 261 Z" fill="#f08a9a"/>
+
+  <!-- destellos -->
+  <g fill="#f3dc94">
+    <path d="M60 120 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4z"/>
+    <path d="M340 90 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3z"/>
+    <path d="M350 300 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3z"/>
+    <path d="M44 330 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3z"/>
+  </g>
+</svg>
